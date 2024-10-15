@@ -12,5 +12,10 @@
 /* Use your variables on elements */
  main {
    color: var(--contrast);
-   background-color: var(--backgr);
+   
  }
+
+
+ body {
+  background-color: rgb(235, 231, 174);
+}
