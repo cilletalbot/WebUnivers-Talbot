@@ -25,18 +25,18 @@
 .navbar a {
   float: left;
   display: block;
-  color: rgb(31, 95, 53);
+  color: rgb(87, 201, 127);
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  margin-right: 30px; /* Mellemrum mellem hovedkategorier */
+  margin-right: 50px; /* Mellemrum mellem hovedkategorier */
 }
 
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: rgb(156, 222, 131);
+  color: rgb(50, 85, 37);
   padding: 14px 20px;
   background-color: inherit;
   margin-right: 30px; /* Også mellemrum her, hvis dropdown er en del af hovedmenuen */
