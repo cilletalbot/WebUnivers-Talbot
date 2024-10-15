@@ -1,11 +1,3 @@
-# Boilerplate: HTML5, CSS and JavaScript
+Her er koderne for mit online magasin om mad på budget 
 
-Here's a quick start for any project.
 
-## Usage
-
-* Copy the folder named `boilerplate` in your Filemagager
-* Paste the folder somewhere suitable.
-* Rename the folder to something usefull.
-
-That's it!

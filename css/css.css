@@ -19,3 +19,25 @@
  body {
   background-color: rgb(235, 231, 174);
 }
+
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(31, 95, 53);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  margin-right: 30px; /* Mellemrum mellem hovedkategorier */
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(156, 222, 131);
+  padding: 14px 20px;
+  background-color: inherit;
+  margin-right: 30px; /* Også mellemrum her, hvis dropdown er en del af hovedmenuen */
+}
