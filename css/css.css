@@ -5,8 +5,8 @@
 
 /* Define variables in the :root */
  :root {
-   --contrast: rgb(139, 218, 139);
-   --backgr: #000;
+   --contrast: rgb(53, 142, 53);
+   --backgr: #6bba62;
  }
 
 /* Use your variables on elements */
@@ -34,6 +34,7 @@
   gap: 30px;
   width: 100%;
   position: relative;
+  background-color: var(--contrast);
 
 }
 
@@ -117,6 +118,7 @@ color: rgb(114, 201, 114);
 header {
   display: flex;
   justify-content: space-evenly;
-  color: #8be98c
+  background-color: var(--backgr);
+
   ;
 }
