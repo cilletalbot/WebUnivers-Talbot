@@ -5,7 +5,7 @@
 
 /* Define variables in the :root */
  :root {
-   --contrast: lime;
+   --contrast: rgb(139, 218, 139);
    --backgr: #000;
  }
 
@@ -32,6 +32,7 @@
   margin-right: 50px; /* Mellemrum mellem hovedkategorier */
   justify-content: center;
   gap: 30px;
+  width: 100%;
   position: relative;
 
 }
