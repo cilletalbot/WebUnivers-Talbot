@@ -5,8 +5,8 @@
 
 /* Define variables in the :root */
  :root {
-   --contrast: rgb(53, 142, 53);
-   --backgr: #6bba62;
+   --contrast: rgb(63, 137, 63);
+   --backgr: #d9cfab;
  }
 
 /* Use your variables on elements */
@@ -17,7 +17,7 @@
 
 
  body {
-  background-color: rgb(235, 231, 174);
+  background-color: var(--backgr)
 }
 
 
@@ -34,7 +34,7 @@
   gap: 30px;
   width: 100%;
   position: relative;
-  background-color: var(--contrast);
+  background-color: var(--contrast)
 
 }
 
@@ -42,7 +42,6 @@
   font-size: 16px;  
   border: none;
   outline: none;
-  color: rgb(50, 85, 37);
   padding: 14px 20px;
   background-color: inherit;
   margin-right: 30px; /* Også mellemrum her, hvis dropdown er en del af hovedmenuen */
@@ -118,7 +117,7 @@ color: rgb(114, 201, 114);
 header {
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--backgr);
+  background-color: var(--contrast)
 
   ;
 }
