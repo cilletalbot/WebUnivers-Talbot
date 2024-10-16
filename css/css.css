@@ -182,3 +182,33 @@ h1 {
   
   
   }
+
+
+
+  .madplan-side {
+    font-size: 20px;
+    img {
+      float: right; /* Flytter billedet til højre */
+      margin-left: 15px; /* Tilføjer margin til venstre for tekst */
+    }
+    h2 {
+      text-align: left; /* Flytter teksten til højre */
+      color: var(--contrast);
+    
+      
+    }
+    p {
+      text-align: left; /* Flytter tekst i paragrafen til venstre */
+      color: var(--contrast);
+    
+      
+    }
+    
+    h1 {
+      text-align: center; 
+      color: var(--contrast);
+      
+    }
+    
+    
+    }
