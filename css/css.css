@@ -73,7 +73,7 @@ color: rgb(114, 201, 114);
 }
 .newsletter h2 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #828e65;
+  color: #8be98c;
   font-size: 1.8rem;
 }
 .newsletter form {
@@ -91,7 +91,7 @@ color: rgb(114, 201, 114);
 }
 .newsletter button {
   padding: 10px 20px;
-  background-color: #828e65;
+  background-color: #9ae083;
   color: white;
   border: none;
   border-radius: 5px;
@@ -101,7 +101,7 @@ color: rgb(114, 201, 114);
   margin-bottom: 40px;
 }
 .newsletter button:hover {
-  background-color: #C1A18C;
+  background-color: #73cf55;
 }
 
 .thank-you-message {
@@ -113,3 +113,9 @@ color: rgb(114, 201, 114);
 
 
 
+header {
+  display: flex;
+  justify-content: space-evenly;
+  color: #8be98c
+  ;
+}
