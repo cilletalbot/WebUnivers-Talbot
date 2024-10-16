@@ -152,6 +152,29 @@
               </div>
           </div>
   
+
+
+          <footer>
+
+
+          </footer>
+
+          <section class="newsletter">
+            <h2>Tilmeld dig vores nyhedsbrev</h2>
+            <form id="signupForm" onsubmit="return handleSubmit(event)">
+                <input type="email" id="email" placeholder="Indtast din e-mail" required>
+                <button type="submit">Tilmeld</button>
+            </form>
+            <p class="thank-you-message" id="thankYouMessage">Tak for din tilmelding!</p>
+        </section> 
+        <script>
+            function handleSubmit(event) {
+                event.preventDefault(); // Forhindrer sidegenindlæsning ved indsendelse af formular
+                var thankYouMessage = document.getElementById('thankYouMessage');
+                thankYouMessage.style.display = 'block'; // Vis takke-besked
+                document.getElementById('signupForm').reset(); // Nulstil formularen
+            }
+        </script>
         
   </body>
   </html>
