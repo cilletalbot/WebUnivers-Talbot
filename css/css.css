@@ -41,3 +41,12 @@
   background-color: inherit;
   margin-right: 30px; /* Også mellemrum her, hvis dropdown er en del af hovedmenuen */
 }
+
+.kol {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+h2,
+p 
