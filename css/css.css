@@ -197,12 +197,12 @@ h2, p {
 }
 h1 {
  font-size: 2.5em; /* Større overskrift */
- color: #4a8c4a; /* Overskrift farve */
+ color: #296b31; /* Overskrift farve */
  margin-bottom: 20px; /* Afstand under overskriften */
 }
 h2 {
  font-size: 1.8em; /* Størrelse for underoverskrifter */
- color: #4a8c4a; /* Farve for underoverskrifter */
+ color: #296b31; /* Farve for underoverskrifter */
  margin-top: 20px; /* Afstand over underoverskrifter */
 }
 p {
@@ -226,12 +226,12 @@ p {
 }
 h1 {
  font-size: 2.5em; /* Større overskrift */
- color: #4a8c4a; /* Overskrift farve */
+ color: #296b31; /* Overskrift farve */
  margin-bottom: 20px; /* Afstand under overskriften */
 }
 h2 {
  font-size: 1.8em; /* Størrelse for underoverskrifter */
- color: #4a8c4a; /* Farve for underoverskrifter */
+ color: #296b31; /* Farve for underoverskrifter */
  margin-top: 20px; /* Afstand over underoverskrifter */
 }
 p {
@@ -262,12 +262,12 @@ p {
 }
 h1 {
  font-size: 2.5em; /* Større overskrift */
- color: #4a8c4a; /* Overskrift farve */
+ color: #296b31; /* Overskrift farve */
  margin-bottom: 20px; /* Afstand under overskriften */
 }
 h2 {
  font-size: 1.8em; /* Størrelse for underoverskrifter */
- color: #4a8c4a; /* Farve for underoverskrifter */
+ color: #296b31; /* Farve for underoverskrifter */
  margin-top: 20px; /* Afstand over underoverskrifter */
 }
 p {
@@ -366,17 +366,17 @@ img {
 }
 h2 {
  text-align: left; /* Flytter teksten til højre */
- color: var(--contrast);
+ color: #296b31;
  
 }
 p {
  text-align: left; /* Flytter tekst i paragrafen til venstre */
- color: var(--contrast);
+ color: #296b31;
  
 }
 h1 {
  text-align: center; 
- color: var(--contrast);
+ color: #296b31;
  font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -391,20 +391,20 @@ h1 {
  }
  h2 {
    text-align: left; /* Flytter teksten til højre */
-   color: var(--contrast);
+   color: #296b31;
  
    
  }
  p {
    text-align: left; /* Flytter tekst i paragrafen til venstre */
-   color: var(--contrast);
+   color: #296b31;
  
    
  }
  
  h1 {
    text-align: center; 
-   color: var(--contrast);
+   color: #296b31;
    font-family: Arial, Helvetica, sans-serif;
    
  }
@@ -421,24 +421,30 @@ h1 {
    }
    h2 {
      text-align: left; /* Flytter teksten til højre */
-     color: var(--contrast);
+     color: #296b31;
    
      
    }
    p {
      text-align: left; /* Flytter tekst i paragrafen til venstre */
-     color: var(--contrast);
+     color: #296b31;
    
      
    }
    
    h1 {
      text-align: center; 
-     color: var(--contrast);
+     color: #296b31;
      font-size: larger;
      font-family: sans-serif Arial, Helvetica, sans-serif;
      
    }
    
    
+   }
+
+
+
+   .skema-plan {
+    color: #296b31
    }
