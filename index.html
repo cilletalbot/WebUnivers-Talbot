@@ -6,84 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Responsive dropdown navbar</title>
   <link rel="stylesheet" href="css/css.css">
-  
-      <style>
-          /* Basis styling af navigationsbar */
-          .navbar {
-              background-color: #c0dc92;
-              overflow: hidden;
-          }
-  
-          .navbar a, .dropdown .dropbtn {
-              float: left;
-              display: block;
-              color: rgb(24, 120, 57);
-              text-align: center;
-              padding: 14px 20px;
-              text-decoration: none;
-              
-          }
-  
-          .navbar a:hover, .dropdown:hover .dropbtn {
-              background-color: #c0dc92;
-              color: rgb(44, 121, 21);
-          }
-  
-          /* Dropdown container */
-          .dropdown {
-              float: left;
-              overflow: hidden;
-          }
-  
-          /* Dropdown knap */
-          .dropdown .dropbtn {
-              font-size: 16px;
-              border: none;
-              outline: none;
-              color: rgb(38, 107, 58);
-              padding: 14px 20px;
-              background-color: inherit;
-              font-family: inherit;
-              margin: 0;
-          }
-  
-          /* Dropdown indhold (skjult indtil brugeren hover) */
-          .dropdown-content {
-              display: none;
-              position: absolute;
-              background-color: #237732;
-              min-width: 160px;
-              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-              z-index: 1;
-          }
-  
-          .dropdown-content a {
-              float: none;
-              color: rgb(57, 109, 48);
-              padding: 12px 16px;
-              text-decoration: none;
-              display: block;
-              text-align: left;
-          }
-  
-          .dropdown-content a:hover {
-              background-color: #c0dc92;
-          }
-  
-          /* Vis dropdown indhold ved hover */
-          .dropdown:hover .dropdown-content {
-              display: block;
-          }
-      </style>
   </head>
-  <body id="forside">
-    
+
+  <body>
     <header>
         <div>
             <img src="images/logo5.png" alt="">
         </div>
-      
-        
+      <nav class="navbar">
      
           <!-- Dropdown Opskrifter -->
           <div class="dropdown">
@@ -164,18 +94,19 @@
 
 <section class="kol">
     <article>
-    <img src="images/pizza.jpg" alt="">
-    <p> Sund pizza </p>
+        <img src="images/pizza.jpg" alt="Sund pizza">
+        <p>Sund pizza</p>
     </article>
     <article>
-        <img src="images/pasta.jpg" alt="">
-        <p> Pasta Alfredo</p>
+        <img src="images/pasta.jpg" alt="Pasta Alfredo">
+        <p>Pasta Alfredo</p>
     </article>
     <article>
-        <img src="images/lasagne.jpg" alt="">
-        <p> Lasagne med grøntsager </p>
+        <img src="images/lasagne.jpg" alt="Lasagne med grøntsager">
+        <p>Lasagne med grøntsager</p>
     </article>
-    </section>
+</section>
+
     <h2> Populære Opskrifter</h2>
         <section class="kol">
             <article>
@@ -223,4 +154,3 @@
   </body>
 
   </html>
-  

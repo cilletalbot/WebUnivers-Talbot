@@ -2,225 +2,438 @@
  * file: css/css.css
  * purpose: styling
  **/
-
 /* Define variables in the :root */
- :root {
-   --contrast: rgb(126, 215, 126);
-   --backgr: #d9cfab;
- }
-
+:root {
+  --contrast: rgb(151, 218, 151);
+  --backgr: #d9cfab;
+  
+}
 /* Use your variables on elements */
- main {
-   color: var(--contrast);
-   
- }
-
-
- body {
-  background-color: var(--backgr)
+main {
+  color: var(--contrast);
+  
 }
 
 
+body {
+ background-color: var(--backgr)
+}
+
+
+
+/* Basis styling af navigationsbar */
+.navbar {
+ background-color: var(--contrast);
+ overflow: hidden;
+}
+.navbar a, .dropdown .dropbtn {
+ float: left;
+ display: block;
+ color: rgb(12, 24, 17);
+ text-align: center;
+ padding: 14px 20px;
+ text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+ background-color: #0f100e;
+ color: var();
+}
+/* Dropdown container */
+.dropdown {
+ float: left;
+ overflow: hidden;
+}
+/* Dropdown knap */
+.dropdown .dropbtn {
+ font-size: 16px;
+ border: none;
+ outline: none;
+ color: var(--contrast);
+ padding: 14px 20px;
+ background-color: inherit;
+ font-family: inherit;
+ margin: 0;
+}
+/* Dropdown indhold (skjult indtil brugeren hover) */
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: var(--contrast);
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+.dropdown-content a {
+ float: none;
+ color: rgb(39, 90, 27);
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+.dropdown-content a:hover {
+ background-color: var(--backgr);
+}
+/* Vis dropdown indhold ved hover */
+.dropdown:hover .dropdown-content {
+ display: block;
+}
 
 .navbar a {
-  float: left;
-  display: block;
-  color: rgb(41, 172, 84);
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  margin-right: 50px; /* Mellemrum mellem hovedkategorier */
-  justify-content: center;
-  gap: 30px;
-  width: 100%;
-  position: relative;
-  background-color: var(--contrast)
-
+ float: left;
+ display: block;
+ color: rgb(0, 77, 26);
+ text-align: center;
+ padding: 14px 20px;
+ text-decoration: none;
+ margin-right: 50px; /* Mellemrum mellem hovedkategorier */
+ justify-content: center;
+ gap: 30px;
+ width: 100%;
+ position: relative;
+ background-color: var(--contrast)
+}
+.dropdown .dropbtn {
+ font-size: 16px;  
+ border: none;
+ outline: none;
+ padding: 14px 20px;
+ background-color: inherit;
+ margin-right: 30px; /* Også mellemrum her, hvis dropdown er en del af hovedmenuen */
 }
 
 
-
+/* Ændrer farven på teksten i dropdown knapperne */
 .dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  padding: 14px 20px;
-  background-color: inherit;
-  margin-right: 30px; /* Også mellemrum her, hvis dropdown er en del af hovedmenuen */
+ color: #296b31; /* Skift til ønsket farve */
+}
+/* Ændrer farven på teksten, når du hoverer over knappen */
+.dropdown .dropbtn:hover {
+ color: #00ff00; /* Skift til ønsket hover-farve */
 }
 
 .kol {
-  display: flex;
-  justify-content: space-evenly;
+ display: flex;
+ justify-content: space-evenly;
 }
-
+/* Billeder */
 img {
-  width: 100;
+ width: 100%; /* Sørger for, at billedet fylder 100% af dets container */
+ transition: transform 0.3s ease; /* Tilføjer en glidende overgang for billedets zoom */
+}
+/* Hover på billeder */
+.kol article:hover img {
+ transform: scale(1.1); /* Zoomer billedet ind ved hover */
+}
+/* Tekstjustering */
+h2, p {
+ text-align: center;
+ color: #16691b;
+}
+/* Hover på tekst */
+.kol article p {
+ transition: color 0.3s ease; /* Glidende overgang for farveændring på teksten */
+}
+.kol article:hover p {
+ color: #16691b; /* Ændrer tekstfarven til grøn ved hover */
 }
 
-h2, p {text-align: center;
-color: var(--contrast);
+.kol article p {
+ font-family: 'Arial', sans-serif; /* Moderne sans-serif skrifttype */
+ font-size: 1.1em; /* Gør teksten lidt større */
+ color: #16691b; /* Skift til en mere subtil grå farve for bedre kontrast */
+ font-weight: 600; /* Gør teksten semi-fed for at fremhæve den */
+ letter-spacing: 0.5px; /* Tilføjer lidt mellemrum mellem bogstaverne */
+ line-height: 1.4em; /* Forbedrer læsbarheden ved at øge linjehøjden */
+ margin-top: 10px; /* Tilføjer lidt luft mellem billedet og teksten */
+}
 
 
+.kol img {
+ width: 100%;  /* Sætter en fast bredde */
+ max-width: 250px;
+ height: auto; /* Sætter en fast højde */
+ aspect-ratio: 5 / 3;
+ object-fit: cover; /* Billederne beskæres, så de fylder hele området uden forvrængning */
+ border-radius: 8px; /* Tilføj afrundede hjørner for et mere moderne udseende */
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.kol article {
+ margin: 10px; 
+}
 
 
+.artikelmad-billede {
+ width: auto; 
+ max-width: 600px; /* Sætter en maksimal bredde */
+ height: auto; /* Beholder proportionerne */
+ border-radius: 8px; /* Afrundede hjørner */
+ margin: 20px 0; /* Tilføjer lidt luft over og under */
 
 }
+.logo-madside {
+ float: left;
+ padding: 5px;
+}
+.logo-billigt {
+ float: left;
+ padding: 5px;
+}
+.logo-madplan {
+ float: left;
+ padding: 5px;
+}
+
+/* Styling for main and article */
+.sparetips-side {
+ max-width: 800px; /* Maksimal bredde for artiklen */
+ margin: 20px auto; /* Centreret med afstand til toppen */
+ padding: 20px; /* Indre afstand */
+ background-color: #ffffff; /* Hvid baggrund */
+ border-radius: 8px; /* Afrundede hjørner */
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Let skygge for dybde */
+}
+h1 {
+ font-size: 2.5em; /* Større overskrift */
+ color: #4a8c4a; /* Overskrift farve */
+ margin-bottom: 20px; /* Afstand under overskriften */
+}
+h2 {
+ font-size: 1.8em; /* Størrelse for underoverskrifter */
+ color: #4a8c4a; /* Farve for underoverskrifter */
+ margin-top: 20px; /* Afstand over underoverskrifter */
+}
+p {
+ margin-bottom: 15px; /* Afstand mellem afsnit */
+ line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
+}
+.artikelmad-billede {
+ max-width: 100%; /* Sikre at billedet ikke overskrider containeren */
+ height: auto; /* Bevarer billedets proportioner */
+ border-radius: 8px; /* Afrundede hjørner */
+ margin: 20px 0; /* Afstand over og under billedet */
+}
+/* Styling for main and article */
+.billigmad-side {
+ max-width: 800px; /* Maksimal bredde for artiklen */
+ margin: 20px auto; /* Centreret med afstand til toppen */
+ padding: 20px; /* Indre afstand */
+ background-color: #ffffff; /* Hvid baggrund */
+ border-radius: 8px; /* Afrundede hjørner */
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Let skygge for dybde */
+}
+h1 {
+ font-size: 2.5em; /* Større overskrift */
+ color: #4a8c4a; /* Overskrift farve */
+ margin-bottom: 20px; /* Afstand under overskriften */
+}
+h2 {
+ font-size: 1.8em; /* Størrelse for underoverskrifter */
+ color: #4a8c4a; /* Farve for underoverskrifter */
+ margin-top: 20px; /* Afstand over underoverskrifter */
+}
+p {
+ margin-bottom: 15px; /* Afstand mellem afsnit */
+ line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
+}
+.artikelmad-billede {
+ max-width: 100%; /* Sikre at billedet ikke overskrider containeren */
+ height: auto; /* Bevarer billedets proportioner */
+ border-radius: 8px; /* Afrundede hjørner */
+ margin: 20px 0; /* Afstand over og under billedet */
+}
+.opskrift-billede {
+
+   max-width: 300px; /* Billedet vil ikke være bredere end 600px */
+   width: 100%; /* Billedet vil fylde 100% af containerens bredde */
+   height: auto; /* Beholder proportionerne */
+}
+
+/* Styling for main and article */
+.madplan-side {
+ max-width: 800px; /* Maksimal bredde for artiklen */
+ margin: 20px auto; /* Centreret med afstand til toppen */
+ padding: 20px; /* Indre afstand */
+ background-color: #ffffff; /* Hvid baggrund */
+ border-radius: 8px; /* Afrundede hjørner */
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Let skygge for dybde */
+}
+h1 {
+ font-size: 2.5em; /* Større overskrift */
+ color: #4a8c4a; /* Overskrift farve */
+ margin-bottom: 20px; /* Afstand under overskriften */
+}
+h2 {
+ font-size: 1.8em; /* Størrelse for underoverskrifter */
+ color: #4a8c4a; /* Farve for underoverskrifter */
+ margin-top: 20px; /* Afstand over underoverskrifter */
+}
+p {
+ margin-bottom: 15px; /* Afstand mellem afsnit */
+ line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
+}
+.madplan-billede {
+ max-width: 300px; /* Billedet vil ikke være bredere end 600px */
+   width: 100%; /* Billedet vil fylde 100% af containerens bredde */
+   height: auto; /* Beholder proportionerne */
+   
+}
+table {
+ width: 100%; /* Tabel bredden */
+ border-collapse: collapse; /* Slå grænser sammen */
+ margin: 20px 0; /* Afstand over og under tabellen */
+}
+th, td {
+ border: 1px solid #ddd; /* Grænsefarve for tabelceller */
+ padding: 10px; /* Indre afstand i cellerne */
+ text-align: left; /* Venstrestillede tekst */
+}
+th {
+ background-color: #f4f4f4; /* Baggrundsfarve for overskriftsrækker */
+ color: #333; /* Farve for overskriftsrækker */
+}
+
+
+
+
 
 
 
 .newsletter {
-  padding: 40px 20px;
-  text-align: center;
-  background-color: rgba(65, 190, 72, 0.748);
-  border-radius: 10px;
-  margin: 40px 0;
+ padding: 40px 20px;
+ text-align: center;
+ background-color: var(--contrast);
+ border-radius: 10px;
+ margin: 40px 0;
 }
 .newsletter h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--contrast);
-  font-size: 1.8rem;
+ font-family: Arial, Helvetica, sans-serif;
+ color: green;
+ font-size: 1.8rem;
 }
 .newsletter form {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+ display: flex;
+ justify-content: center;
+ gap: 10px;
 }
 .newsletter input[type="email"] {
-  padding: 10px;
-  border: 1px solid #020202;
-  border-radius: 5px;
-  width: 300px;
-  margin-bottom: 40px;
-  font-size: 1rem;
+ padding: 10px;
+ border: 1px solid #020202;
+ border-radius: 5px;
+ width: 300px;
+ margin-bottom: 40px;
+ font-size: 1rem;
 }
 .newsletter button {
-  padding: 10px 20px;
-  background-color: #9ae083;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  display: inline-block;
-  margin-bottom: 40px;
+ padding: 10px 20px;
+ background-color: #59794e;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 1rem;
+ display: inline-block;
+ margin-bottom: 40px;
 }
 .newsletter button:hover {
-  background-color: var(--contrast);
+ background-color: var(--contrast);
 }
-
 .thank-you-message {
-  display: none; /* Skjult som standard */
-  color: var(--contrast);
-  margin-top: 20px;
-  font-size: 1.2rem;
+ display: none; /* Skjult som standard */
+ color: var(--contrast);
+ margin-top: 20px;
+ font-size: 1.2rem;
 }
-
 
 
 header {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: var(--contrast)
-
-  ;
+ display: flex;
+ justify-content: space-evenly;
+ background-color: var(--contrast)
+ ;
 }
-
 
 .sparetips-side {
 font-size: 20px;
 img {
-  float: right; /* Flytter billedet til højre */
-  margin-left: 15px; /* Tilføjer margin til venstre for tekst */
+ float: right; /* Flytter billedet til højre */
+ margin-left: 15px; /* Tilføjer margin til venstre for tekst */
 }
 h2 {
-  text-align: left; /* Flytter teksten til højre */
-  color: var(--contrast);
-
-  
+ text-align: left; /* Flytter teksten til højre */
+ color: var(--contrast);
+ 
 }
 p {
-  text-align: left; /* Flytter tekst i paragrafen til venstre */
-  color: var(--contrast);
-
-  
+ text-align: left; /* Flytter tekst i paragrafen til venstre */
+ color: var(--contrast);
+ 
 }
-
 h1 {
-  text-align: center; 
-  color: var(--contrast);
-  font-family: Arial, Helvetica, sans-serif;
-
+ text-align: center; 
+ color: var(--contrast);
+ font-family: Arial, Helvetica, sans-serif;
 }
 
-
 }
-
 
 
 .billigmad-side {
-  font-size: 20px;
-  img {
-    float: right; /* Flytter billedet til højre */
-    margin-left: 15px; /* Tilføjer margin til venstre for tekst */
-  }
-  h2 {
-    text-align: left; /* Flytter teksten til højre */
-    color: var(--contrast);
-  
-    
-  }
-  p {
-    text-align: left; /* Flytter tekst i paragrafen til venstre */
-    color: var(--contrast);
-  
-    
-  }
-  
-  h1 {
-    text-align: center; 
-    color: var(--contrast);
-    font-family: Arial, Helvetica, sans-serif;
-    
-  }
-  
-  
-  }
+ font-size: 20px;
+ img {
+   float: right; /* Flytter billedet til højre */
+   margin-left: 15px; /* Tilføjer margin til venstre for tekst */
+ }
+ h2 {
+   text-align: left; /* Flytter teksten til højre */
+   color: var(--contrast);
+ 
+   
+ }
+ p {
+   text-align: left; /* Flytter tekst i paragrafen til venstre */
+   color: var(--contrast);
+ 
+   
+ }
+ 
+ h1 {
+   text-align: center; 
+   color: var(--contrast);
+   font-family: Arial, Helvetica, sans-serif;
+   
+ }
+ 
+ 
+ }
 
 
-
-  .madplan-side {
-    font-size: 20px;
-    img {
-      float: right; /* Flytter billedet til højre */
-      margin-left: 15px; /* Tilføjer margin til venstre for tekst */
-    }
-    h2 {
-      text-align: left; /* Flytter teksten til højre */
-      color: var(--contrast);
-    
-      
-    }
-    p {
-      text-align: left; /* Flytter tekst i paragrafen til venstre */
-      color: var(--contrast);
-    
-      
-    }
-    
-    h1 {
-      text-align: center; 
-      color: var(--contrast);
-      font-size: larger;
-      font-family: sans-serif Arial, Helvetica, sans-serif;
-      
-    }
-    
-    
-    }
-
-
-
-
-
-    
+ .madplan-side {
+   font-size: 20px;
+   img {
+     float: right; /* Flytter billedet til højre */
+     margin-left: 15px; /* Tilføjer margin til venstre for tekst */
+   }
+   h2 {
+     text-align: left; /* Flytter teksten til højre */
+     color: var(--contrast);
+   
+     
+   }
+   p {
+     text-align: left; /* Flytter tekst i paragrafen til venstre */
+     color: var(--contrast);
+   
+     
+   }
+   
+   h1 {
+     text-align: center; 
+     color: var(--contrast);
+     font-size: larger;
+     font-family: sans-serif Arial, Helvetica, sans-serif;
+     
+   }
+   
+   
+   }
