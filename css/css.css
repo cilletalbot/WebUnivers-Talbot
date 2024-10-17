@@ -308,9 +308,12 @@ th {
 }
 .newsletter h2 {
  font-family: Arial, Helvetica, sans-serif;
- color: green;
+ color: rgb(22, 43, 22);
  font-size: 1.8rem;
 }
+
+
+
 .newsletter form {
  display: flex;
  justify-content: center;
@@ -340,7 +343,7 @@ th {
 }
 .thank-you-message {
  display: none; /* Skjult som standard */
- color: var(--contrast);
+ color: rgb(107, 28, 82);
  margin-top: 20px;
  font-size: 1.2rem;
 }
