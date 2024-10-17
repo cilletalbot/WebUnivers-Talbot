@@ -5,7 +5,7 @@
 
 /* Define variables in the :root */
  :root {
-   --contrast: rgb(63, 137, 63);
+   --contrast: rgb(126, 215, 126);
    --backgr: #d9cfab;
  }
 
@@ -25,7 +25,7 @@
 .navbar a {
   float: left;
   display: block;
-  color: rgb(0, 77, 26);
+  color: rgb(41, 172, 84);
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -37,6 +37,8 @@
   background-color: var(--contrast)
 
 }
+
+
 
 .dropdown .dropbtn {
   font-size: 16px;  
@@ -216,3 +218,9 @@ h1 {
     
     
     }
+
+
+
+
+
+    
