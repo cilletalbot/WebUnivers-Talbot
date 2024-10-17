@@ -8,7 +8,7 @@
   --backgr: #d9cfab;
   
 }
-/* Use your variables on elements */
+
 main {
   color: var(--contrast);
   
@@ -86,7 +86,7 @@ body {
  text-align: center;
  padding: 14px 20px;
  text-decoration: none;
- margin-right: 50px; /* Mellemrum mellem hovedkategorier */
+ margin-right: 50px; 
  justify-content: center;
  gap: 30px;
  width: 100%;
@@ -119,7 +119,7 @@ body {
 }
 /* Billeder */
 img {
- width: 100%; /* Sørger for, at billedet fylder 100% af dets container */
+ width: 100%; 
  transition: transform 0.3s ease; /* Tilføjer en glidende overgang for billedets zoom */
 }
 /* Hover på billeder */
@@ -137,27 +137,27 @@ h2, p {
  transition: color 0.3s ease; /* Glidende overgang for farveændring på teksten */
 }
 .kol article:hover p {
- color: #16691b; /* Ændrer tekstfarven til grøn ved hover */
+ color: #16691b; 
 }
 
 .kol article p {
- font-family: 'Arial', sans-serif; /* Moderne sans-serif skrifttype */
- font-size: 1.1em; /* Gør teksten lidt større */
- color: #296b31; /* Skift til en mere subtil grå farve for bedre kontrast */
- font-weight: 600; /* Gør teksten semi-fed for at fremhæve den */
- letter-spacing: 0.5px; /* Tilføjer lidt mellemrum mellem bogstaverne */
- line-height: 1.4em; /* Forbedrer læsbarheden ved at øge linjehøjden */
- margin-top: 10px; /* Tilføjer lidt luft mellem billedet og teksten */
+ font-family: 'Arial', sans-serif; 
+ font-size: 1.1em; 
+ color: #296b31; 
+ font-weight: 600; 
+ letter-spacing: 0.5px; 
+ line-height: 1.4em; 
+ margin-top: 10px; 
 }
 
 
 .kol img {
  width: 100%;  /* Sætter en fast bredde */
  max-width: 250px;
- height: auto; /* Sætter en fast højde */
+ height: auto; 
  aspect-ratio: 5 / 3;
- object-fit: cover; /* Billederne beskæres, så de fylder hele området uden forvrængning */
- border-radius: 8px; /* Tilføj afrundede hjørner for et mere moderne udseende */
+ object-fit: cover; 
+ border-radius: 8px; 
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .kol article {
@@ -201,19 +201,19 @@ h1 {
  margin-bottom: 20px; /* Afstand under overskriften */
 }
 h2 {
- font-size: 1.8em; /* Størrelse for underoverskrifter */
- color: #296b31; /* Farve for underoverskrifter */
- margin-top: 20px; /* Afstand over underoverskrifter */
+ font-size: 1.8em; 
+ color: #296b31; 
+ margin-top: 20px; 
 }
 p {
- margin-bottom: 15px; /* Afstand mellem afsnit */
- line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
+ margin-bottom: 15px; 
+ line-height: 1.6; 
 }
 .artikelmad-billede {
- max-width: 100%; /* Sikre at billedet ikke overskrider containeren */
- height: auto; /* Bevarer billedets proportioner */
- border-radius: 8px; /* Afrundede hjørner */
- margin: 20px 0; /* Afstand over og under billedet */
+ max-width: 100%; 
+ height: auto; 
+ border-radius: 8px; 
+ margin: 20px 0; 
 }
 /* Styling for main and article */
 .billigmad-side {
