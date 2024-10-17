@@ -92,24 +92,25 @@ body {
  width: 100%;
  position: relative;
  background-color: var(--contrast)
+ 
 }
 .dropdown .dropbtn {
- font-size: 16px;  
+ font-size: 23px;  
  border: none;
  outline: none;
  padding: 14px 20px;
  background-color: inherit;
- margin-right: 30px; /* Også mellemrum her, hvis dropdown er en del af hovedmenuen */
+ margin-right: 30px; 
 }
 
 
-/* Ændrer farven på teksten i dropdown knapperne */
+
 .dropdown .dropbtn {
- color: #296b31; /* Skift til ønsket farve */
+ color: #296b31; 
 }
-/* Ændrer farven på teksten, når du hoverer over knappen */
+
 .dropdown .dropbtn:hover {
- color: #00ff00; /* Skift til ønsket hover-farve */
+ color: #00ff00; 
 }
 
 .kol {
@@ -123,12 +124,13 @@ img {
 }
 /* Hover på billeder */
 .kol article:hover img {
- transform: scale(1.1); /* Zoomer billedet ind ved hover */
+ transform: scale(1.1); 
 }
 /* Tekstjustering */
 h2, p {
  text-align: center;
  color: #16691b;
+ 
 }
 /* Hover på tekst */
 .kol article p {
@@ -141,7 +143,7 @@ h2, p {
 .kol article p {
  font-family: 'Arial', sans-serif; /* Moderne sans-serif skrifttype */
  font-size: 1.1em; /* Gør teksten lidt større */
- color: #16691b; /* Skift til en mere subtil grå farve for bedre kontrast */
+ color: #296b31; /* Skift til en mere subtil grå farve for bedre kontrast */
  font-weight: 600; /* Gør teksten semi-fed for at fremhæve den */
  letter-spacing: 0.5px; /* Tilføjer lidt mellemrum mellem bogstaverne */
  line-height: 1.4em; /* Forbedrer læsbarheden ved at øge linjehøjden */
@@ -329,7 +331,7 @@ th {
 }
 .newsletter button {
  padding: 10px 20px;
- background-color: #59794e;
+ background-color: #296b31;
  color: white;
  border: none;
  border-radius: 5px;
@@ -343,7 +345,7 @@ th {
 }
 .thank-you-message {
  display: none; /* Skjult som standard */
- color: rgb(107, 28, 82);
+ color: #296b31;
  margin-top: 20px;
  font-size: 1.2rem;
 }
