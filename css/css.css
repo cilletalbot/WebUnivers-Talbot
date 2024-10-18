@@ -196,9 +196,9 @@ h2, p {
  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Let skygge for dybde */
 }
 h1 {
- font-size: 2.5em; 
- color: #296b31; 
- margin-bottom: 20px; 
+ font-size: 2.5em; /* Større overskrift */
+ color: #296b31; /* Overskrift farve */
+ margin-bottom: 20px; /* Afstand under overskriften */
 }
 h2 {
  font-size: 1.8em; 
@@ -217,26 +217,26 @@ p {
 }
 /* Styling for main and article */
 .billigmad-side {
- max-width: 800px; 
- margin: 20px auto; 
- padding: 20px; 
- background-color: #ffffff; 
- border-radius: 8px;
- box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+ max-width: 800px; /* Maksimal bredde for artiklen */
+ margin: 20px auto; /* Centreret med afstand til toppen */
+ padding: 20px; /* Indre afstand */
+ background-color: #ffffff; /* Hvid baggrund */
+ border-radius: 8px; /* Afrundede hjørner */
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Let skygge for dybde */
 }
 h1 {
- font-size: 2.5em; 
- color: #296b31; 
- margin-bottom: 20px; 
+ font-size: 2.5em; /* Større overskrift */
+ color: #296b31; /* Overskrift farve */
+ margin-bottom: 20px; /* Afstand under overskriften */
 }
 h2 {
- font-size: 1.8em; 
- color: #296b31; 
- margin-top: 20px; 
+ font-size: 1.8em; /* Størrelse for underoverskrifter */
+ color: #296b31; /* Farve for underoverskrifter */
+ margin-top: 20px; /* Afstand over underoverskrifter */
 }
 p {
- margin-bottom: 15px; 
- line-height: 1.6; 
+ margin-bottom: 15px; /* Afstand mellem afsnit */
+ line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
 }
 .artikelmad-billede {
  max-width: 100%; 
@@ -246,7 +246,7 @@ p {
 }
 .opskrift-billede {
 
-   max-width: 300px; 
+   max-width: 300px; /* Billedet vil ikke være bredere end 600px */
    width: 100%; 
    height: auto; 
 }
@@ -254,18 +254,17 @@ p {
 /* Styling for main and article */
 .madplan-side {
  max-width: 800px; 
- margin: 20px auto;
- padding: 20px; 
+ margin: 20px auto; /* Centreret med afstand til toppen */
+ padding: 20px; /* Indre afstand */
  background-color: #ffffff; 
- border-radius: 8px; 
+ border-radius: 8px; /* Afrundede hjørner */
  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 h1 {
  font-size: 2.5em; 
  color: #296b31; 
  margin-bottom: 20px; 
-
-
+}
 h2 {
  font-size: 1.8em; 
  color: #296b31; 
