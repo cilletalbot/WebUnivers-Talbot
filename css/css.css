@@ -167,10 +167,10 @@ h2, p {
 
 .artikelmad-billede {
  width: auto; 
- max-width: 600px; /* Sætter en maksimal bredde */
- height: auto; /* Beholder proportionerne */
- border-radius: 8px; /* Afrundede hjørner */
- margin: 20px 0; /* Tilføjer lidt luft over og under */
+ max-width: 600px; 
+ height: auto; 
+ border-radius: 8px; 
+ margin: 20px 0; 
 
 }
 .logo-madside {
@@ -196,9 +196,9 @@ h2, p {
  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Let skygge for dybde */
 }
 h1 {
- font-size: 2.5em; /* Større overskrift */
- color: #296b31; /* Overskrift farve */
- margin-bottom: 20px; /* Afstand under overskriften */
+ font-size: 2.5em; 
+ color: #296b31; 
+ margin-bottom: 20px; 
 }
 h2 {
  font-size: 1.8em; 
@@ -217,82 +217,83 @@ p {
 }
 /* Styling for main and article */
 .billigmad-side {
- max-width: 800px; /* Maksimal bredde for artiklen */
- margin: 20px auto; /* Centreret med afstand til toppen */
- padding: 20px; /* Indre afstand */
- background-color: #ffffff; /* Hvid baggrund */
- border-radius: 8px; /* Afrundede hjørner */
- box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Let skygge for dybde */
+ max-width: 800px; 
+ margin: 20px auto; 
+ padding: 20px; 
+ background-color: #ffffff; 
+ border-radius: 8px;
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 h1 {
- font-size: 2.5em; /* Større overskrift */
- color: #296b31; /* Overskrift farve */
- margin-bottom: 20px; /* Afstand under overskriften */
+ font-size: 2.5em; 
+ color: #296b31; 
+ margin-bottom: 20px; 
 }
 h2 {
- font-size: 1.8em; /* Størrelse for underoverskrifter */
- color: #296b31; /* Farve for underoverskrifter */
- margin-top: 20px; /* Afstand over underoverskrifter */
+ font-size: 1.8em; 
+ color: #296b31; 
+ margin-top: 20px; 
 }
 p {
- margin-bottom: 15px; /* Afstand mellem afsnit */
- line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
+ margin-bottom: 15px; 
+ line-height: 1.6; 
 }
 .artikelmad-billede {
- max-width: 100%; /* Sikre at billedet ikke overskrider containeren */
- height: auto; /* Bevarer billedets proportioner */
- border-radius: 8px; /* Afrundede hjørner */
- margin: 20px 0; /* Afstand over og under billedet */
+ max-width: 100%; 
+ height: auto; 
+ border-radius: 8px; 
+ margin: 20px 0; 
 }
 .opskrift-billede {
 
-   max-width: 300px; /* Billedet vil ikke være bredere end 600px */
-   width: 100%; /* Billedet vil fylde 100% af containerens bredde */
-   height: auto; /* Beholder proportionerne */
+   max-width: 300px; 
+   width: 100%; 
+   height: auto; 
 }
 
 /* Styling for main and article */
 .madplan-side {
- max-width: 800px; /* Maksimal bredde for artiklen */
- margin: 20px auto; /* Centreret med afstand til toppen */
- padding: 20px; /* Indre afstand */
- background-color: #ffffff; /* Hvid baggrund */
- border-radius: 8px; /* Afrundede hjørner */
- box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Let skygge for dybde */
+ max-width: 800px; 
+ margin: 20px auto;
+ padding: 20px; 
+ background-color: #ffffff; 
+ border-radius: 8px; 
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 h1 {
- font-size: 2.5em; /* Større overskrift */
- color: #296b31; /* Overskrift farve */
- margin-bottom: 20px; /* Afstand under overskriften */
-}
+ font-size: 2.5em; 
+ color: #296b31; 
+ margin-bottom: 20px; 
+
+
 h2 {
- font-size: 1.8em; /* Størrelse for underoverskrifter */
- color: #296b31; /* Farve for underoverskrifter */
- margin-top: 20px; /* Afstand over underoverskrifter */
+ font-size: 1.8em; 
+ color: #296b31; 
+ margin-top: 20px; 
 }
 p {
- margin-bottom: 15px; /* Afstand mellem afsnit */
- line-height: 1.6; /* Øg linjehøjden for bedre læsbarhed */
+ margin-bottom: 15px; 
+ line-height: 1.6; 
 }
 .madplan-billede {
- max-width: 300px; /* Billedet vil ikke være bredere end 600px */
-   width: 100%; /* Billedet vil fylde 100% af containerens bredde */
-   height: auto; /* Beholder proportionerne */
+ max-width: 300px; 
+   width: 100%; 
+   height: auto; 
    
 }
 table {
- width: 100%; /* Tabel bredden */
- border-collapse: collapse; /* Slå grænser sammen */
- margin: 20px 0; /* Afstand over og under tabellen */
+ width: 100%; 
+ border-collapse: collapse; 
+ margin: 20px 0; 
 }
 th, td {
- border: 1px solid #ddd; /* Grænsefarve for tabelceller */
- padding: 10px; /* Indre afstand i cellerne */
- text-align: left; /* Venstrestillede tekst */
+ border: 1px solid #ddd; 
+ padding: 10px; 
+ text-align: left; 
 }
 th {
- background-color: #f4f4f4; /* Baggrundsfarve for overskriftsrækker */
- color: #333; /* Farve for overskriftsrækker */
+ background-color: #f4f4f4; 
+ color: #333; 
 }
 
 
@@ -344,7 +345,7 @@ th {
  background-color: var(--contrast);
 }
 .thank-you-message {
- display: none; /* Skjult som standard */
+ display: none; 
  color: #296b31;
  margin-top: 20px;
  font-size: 1.2rem;
@@ -361,16 +362,16 @@ header {
 .sparetips-side {
 font-size: 20px;
 img {
- float: right; /* Flytter billedet til højre */
- margin-left: 15px; /* Tilføjer margin til venstre for tekst */
+ float: right; 
+ margin-left: 15px; 
 }
 h2 {
- text-align: left; /* Flytter teksten til højre */
+ text-align: left; 
  color: #296b31;
  
 }
 p {
- text-align: left; /* Flytter tekst i paragrafen til venstre */
+ text-align: left; 
  color: #296b31;
  
 }
@@ -386,17 +387,17 @@ h1 {
 .billigmad-side {
  font-size: 20px;
  img {
-   float: right; /* Flytter billedet til højre */
-   margin-left: 15px; /* Tilføjer margin til venstre for tekst */
+   float: right; 
+   margin-left: 15px; 
  }
  h2 {
-   text-align: left; /* Flytter teksten til højre */
+   text-align: left; 
    color: #296b31;
  
    
  }
  p {
-   text-align: left; /* Flytter tekst i paragrafen til venstre */
+   text-align: left; 
    color: #296b31;
  
    
@@ -416,17 +417,17 @@ h1 {
  .madplan-side {
    font-size: 20px;
    img {
-     float: right; /* Flytter billedet til højre */
-     margin-left: 15px; /* Tilføjer margin til venstre for tekst */
+     float: right; 
+     margin-left: 15px; 
    }
    h2 {
-     text-align: left; /* Flytter teksten til højre */
+     text-align: left; 
      color: #296b31;
    
      
    }
    p {
-     text-align: left; /* Flytter tekst i paragrafen til venstre */
+     text-align: left; 
      color: #296b31;
    
      
